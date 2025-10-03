@@ -11,7 +11,7 @@ from reportlab.platypus import Table, TableStyle
 from reportlab.platypus import Table, TableStyle, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 
-EXCEL_FILE = "../../BrightDesk_Consulting_Ledger_Mar2022_to_Aug2025_v13.xlsx"
+EXCEL_FILE = "BrightDesk_Consulting_Ledger_Mar2022_to_Aug2025_v13.xlsx"
 
 def get_invoice_date_and_due_date(payment_date):
     # If it's already a datetime object, use it directly
